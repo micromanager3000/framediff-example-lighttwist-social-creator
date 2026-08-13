@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "items": [
     {
       "id": "bad-call",
@@ -12,6 +12,15 @@
       "content": {
         "type": "video",
         "src": "asset://reel-s03"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -23,6 +32,15 @@
       "content": {
         "type": "layers",
         "label": "Hook copy"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -36,6 +54,15 @@
       "content": {
         "type": "video",
         "src": "asset://reel-s04a"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -47,6 +74,15 @@
       "content": {
         "type": "layers",
         "label": "Transformation copy"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -60,6 +96,15 @@
       "content": {
         "type": "video",
         "src": "asset://reel-s04b"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -73,6 +118,15 @@
       "content": {
         "type": "video",
         "src": "asset://reel-s04c"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -84,6 +138,15 @@
       "content": {
         "type": "layers",
         "label": "Proof chips"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -95,6 +158,15 @@
       "content": {
         "type": "layers",
         "label": "Transition flash"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -108,6 +180,15 @@
       "content": {
         "type": "video",
         "src": "asset://reel-s14"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -119,6 +200,15 @@
       "content": {
         "type": "layers",
         "label": "LightTwist end card"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "fit": "cover"
       }
     },
     {

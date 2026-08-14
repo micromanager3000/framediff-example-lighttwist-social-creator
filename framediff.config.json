@@ -1,6 +1,6 @@
 {
   "assets": {
     "mode": "local",
-    "path": "../hero-reel/assets"
+    "path": "assets"
   }
 }

@@ -95,6 +95,15 @@
       .video-shot {
         display: grid;
         place-items: center;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 34px;
+        background: #090b13;
+        box-shadow:
+          0 54px 130px rgba(0, 0, 0, 0.58),
+          0 0 0 10px rgba(255, 255, 255, 0.025);
+        transform-origin: center;
+        will-change: transform, opacity;
       }
 
       .video-card {
@@ -131,7 +140,15 @@
           0 0 0 10px rgba(255, 255, 255, 0.02);
       }
 
-      .bad-call canvas {
+      .bad-call {
+        border-color: rgba(255, 255, 255, 0.16);
+        box-shadow:
+          0 48px 110px rgba(0, 0, 0, 0.62),
+          0 0 0 10px rgba(255, 255, 255, 0.02);
+      }
+
+      .bad-call canvas,
+      .bad-call > video[data-fd-timeline-media] {
         filter: saturate(0.48) brightness(0.68) contrast(0.9);
       }
 
@@ -192,7 +209,17 @@
           0 0 0 10px rgba(143, 126, 255, 0.055);
       }
 
-      .news-shot canvas {
+      .news-shot {
+        border-color: rgba(166, 149, 255, 0.55);
+        border-radius: 42px;
+        box-shadow:
+          0 68px 150px rgba(0, 0, 0, 0.58),
+          0 0 70px rgba(108, 92, 231, 0.2),
+          0 0 0 10px rgba(143, 126, 255, 0.055);
+      }
+
+      .news-shot canvas,
+      .news-shot > video[data-fd-timeline-media] {
         filter: saturate(1.06) contrast(1.02);
       }
 
@@ -334,7 +361,8 @@
         z-index: 1;
       }
 
-      .end-visual canvas {
+      .end-visual canvas,
+      .end-visual > video[data-fd-timeline-media] {
         object-position: 68% center;
         filter: blur(7px) brightness(0.34) saturate(1.2);
         transform: scale(1.09);
@@ -571,8 +599,7 @@
           const badIn = easeOut(badFrame / 10);
           const badOut = easeIn((badFrame - (badDuration - 12)) / 12);
           bad.style.opacity = String(badIn * (1 - badOut));
-          const badCard = bad.querySelector(".video-card");
-          badCard.style.transform = `translateY(${(1 - badIn) * 30 - badOut * 16}px) scale(${0.94 + badIn * 0.06 + badFrame / badDuration * 0.018})`;
+          bad.style.transform = `translateY(${(1 - badIn) * 30 - badOut * 16}px) scale(${0.94 + badIn * 0.06 + badFrame / badDuration * 0.018})`;
 
           const hook = query(".hook-copy");
           const hookFrame = local(hook);
@@ -589,9 +616,8 @@
             const intro = easeOut(frame / 8);
             const outro = easeIn((frame - (shotDuration - 8)) / 8);
             shot.style.opacity = String(intro * (1 - outro));
-            const card = shot.querySelector(".video-card");
             const drift = frame / shotDuration;
-            card.style.transform = `translateY(${(1 - intro) * 48 + outro * 24}px) scale(${0.94 + intro * 0.06 + drift * 0.012}) rotate(${(1 - intro) * (index % 2 ? 0.7 : -0.7)}deg)`;
+            shot.style.transform = `translateY(${(1 - intro) * 48 + outro * 24}px) scale(${0.94 + intro * 0.06 + drift * 0.012}) rotate(${(1 - intro) * (index % 2 ? 0.7 : -0.7)}deg)`;
           });
 
           const reveal = query(".reveal-copy");
@@ -621,7 +647,8 @@
           const endVisualFrame = local(endVisual);
           const endVisualIn = easeOut(endVisualFrame / 12);
           endVisual.style.opacity = String(endVisualIn);
-          endVisual.querySelector("canvas").style.transform = `scale(${1.12 - endVisualIn * 0.03 + endVisualFrame / duration(endVisual) * 0.018})`;
+          const endVisualMedia = endVisual.querySelector("video, canvas");
+          if (endVisualMedia) endVisualMedia.style.transform = `scale(${1.12 - endVisualIn * 0.03 + endVisualFrame / duration(endVisual) * 0.018})`;
 
           const end = query(".end-card");
           const endFrame = local(end);

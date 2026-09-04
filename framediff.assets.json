@@ -8,7 +8,45 @@
       "bytes": 1046910,
       "sources": [
         "/__framediff-cache/sha256%3A698764c82e9794714ad36738558735830323fa7bc7430bf459beff13d805c3fb"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:87aa6456947769d6ffbe97258728413fd8c2b536288f96112dfcd4542087af4c",
+          "mime": "video/mp4",
+          "bytes": 95256,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 2.708333
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:908bc3617fd3ae526d9b6915e69b9d0c54d42589bac62afa9ebac934c07c1760",
+          "mime": "video/mp4",
+          "bytes": 169649,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 2.708333
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:ea899d241ad92608f33753fe275b17e66c0ebe2179884f2f6922ad4048bab788",
+          "mime": "video/mp4",
+          "bytes": 255588,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 2.708333
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:d3892b149f84e89155eaa9888a5b224b4106f3e5e3d4825958a1ae617072329a",
+          "mime": "image/jpeg",
+          "bytes": 99883,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:ea899d241ad92608f33753fe275b17e66c0ebe2179884f2f6922ad4048bab788"
     },
     "reel-s04a": {
       "name": "s04a.mp4",
@@ -17,7 +55,45 @@
       "bytes": 4377851,
       "sources": [
         "/__framediff-cache/sha256%3Addd29fae4fd9cf924c38683c50673a9ba994b454ee346a0ae25d96563e593697"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:6f0945d3c3019094a2d00bd60329a3b0d6d5a631add873b97992441c4de29a37",
+          "mime": "video/mp4",
+          "bytes": 373797,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 4.933333
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:4ada560e0113c98d0901ddc2b36fc8de637da20ce1ce5add646c910dc4940e60",
+          "mime": "video/mp4",
+          "bytes": 695860,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 4.933333
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:65ca31c26be36e1343c274ec903d37c114d38f1dc99dd1b4c920f0b9d1ab131a",
+          "mime": "video/mp4",
+          "bytes": 1078280,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 4.933333
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:9093225e3da7fae5b35f974baaa4266ed74be568fe5629d596060c72134cafbb",
+          "mime": "image/jpeg",
+          "bytes": 101721,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:65ca31c26be36e1343c274ec903d37c114d38f1dc99dd1b4c920f0b9d1ab131a"
     },
     "reel-s04b": {
       "name": "s04b.mp4",
@@ -26,7 +102,45 @@
       "bytes": 1485670,
       "sources": [
         "/__framediff-cache/sha256%3Aa79b426759a1f5bc0aaa375f0805bcde888f9bf38226832a1496a541c8a03d3f"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:fce065ae5c45483c3ace4bb382ca8e533bfb09147e688fc99c84990af6c58911",
+          "mime": "video/mp4",
+          "bytes": 76967,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 1.666667
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:7d14e452056d25ff08b25404eddc4bde3bfdc81c3f42d6ae1d4f460472450311",
+          "mime": "video/mp4",
+          "bytes": 145710,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 1.666667
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:a108a1e03d108c20f149e1f84da158458663f035583537903cc24fc41cf3a276",
+          "mime": "video/mp4",
+          "bytes": 223939,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 1.666667
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:954bf85a4089bc96df808113d3521e46cca78265c63bc66ea933ff7076921d73",
+          "mime": "image/jpeg",
+          "bytes": 118796,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:a108a1e03d108c20f149e1f84da158458663f035583537903cc24fc41cf3a276"
     },
     "reel-s04c": {
       "name": "s04c.mp4",
@@ -35,7 +149,45 @@
       "bytes": 2067618,
       "sources": [
         "/__framediff-cache/sha256%3A90558ae2886e685c7d95259e9e0303e60f9593de49efe175c55875b9fc245d37"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:ac8addb0e1e8e9c41fa777dbb1d018e4b7d7eb37710c015143640e57a6dacb54",
+          "mime": "video/mp4",
+          "bytes": 131384,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 2.266667
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:c979a0fef048e421207f535f1f6f70e409f9acc6dbe73e4ede741ce7d89499a7",
+          "mime": "video/mp4",
+          "bytes": 264975,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 2.266667
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:6371f677b97560b06ba709f813712f544616d400f013ec82b0c945eef752d915",
+          "mime": "video/mp4",
+          "bytes": 421892,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 2.266667
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:6080b4977d1326e93663cc27b3823eaa1f9638182421b2be656a842c8aba1fd0",
+          "mime": "image/jpeg",
+          "bytes": 112236,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:6371f677b97560b06ba709f813712f544616d400f013ec82b0c945eef752d915"
     },
     "reel-s14": {
       "name": "s14.mp4",
@@ -44,7 +196,45 @@
       "bytes": 3120734,
       "sources": [
         "/__framediff-cache/sha256%3Af91e3d817184cd306acded10727eee6eaa0fa2f1fc424870875c8124ff6af520"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:8714bd92aaeca0a387742bf054f0da0c53f796044ea2901c8519ef3cc117706e",
+          "mime": "video/mp4",
+          "bytes": 230255,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 1.766667
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:4f9cc29d02f91f463a5bdf68a49dfb4ad2abc64e0f61c208e1dca9cc5f125297",
+          "mime": "video/mp4",
+          "bytes": 469671,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 1.766667
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:eb5895d60ad1019036e587c90b27df186648b7f718c54e840399a5ec777600c7",
+          "mime": "video/mp4",
+          "bytes": 747258,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 1.766667
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:8afc33e92c4134edbcfffd49a2d8a54eefdce47448db1bd1a82b7b3f02dc6d38",
+          "mime": "image/jpeg",
+          "bytes": 120028,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:eb5895d60ad1019036e587c90b27df186648b7f718c54e840399a5ec777600c7"
     },
     "reel-music": {
       "name": "music.m4a",
